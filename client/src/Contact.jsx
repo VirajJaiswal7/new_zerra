@@ -17,7 +17,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://new-zerra.vercel.app//send-mail", {
+    const res = await fetch("https://new-zerra.vercel.app/send-mail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
